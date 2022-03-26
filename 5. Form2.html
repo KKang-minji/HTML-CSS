@@ -1,0 +1,60 @@
+<h1>4. Radio & Checkbox</h1>
+
+<h2>Radio</h2>
+
+<form action="" method="GET">
+    <input type="radio" name="subscirption" value="subscribed" id="subscribed" />
+    <label for="subscribed">구독중</label>
+    <input type="radio" name="subscription" value="unsubscribed" id="unsubscribed" />
+    <label for="unsubscribed">미구독</label>
+    <button>
+        submit
+    </button>
+</form>
+
+⭐️input 타입 radio일때 필수⭐️
+- name: 나랑 서로 연관 되어있는걸 알려주기위해 같은 값 
+- value: 어떤 항목이 선택되어서 서버에 전달될때 구분을 위해 각기 다른 값을 적어야함
+
+<h2>Checkbox</h2>
+<h3>사용 가능 언어</h3>
+
+<form>
+    <input type="checkbox" name="skills" value="html" id="html" />
+    <label for="html">HTML</label>
+    <input type="checkbox" name="skills" value="css" id="css" />
+    <label for="html">CSS</label>
+    <input type="checkbox" name="skills" value="js" id="js" />
+    <label for="html">JavaScript</label>
+    <button>
+        submit
+    </button>
+</form>
+
+
+<h1>5. Select & Option</h1>
+<form action="" method="GET">
+    <label for="skill">단독 선택 스킬</label>
+    <select name="skill" id="skill">
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="js">JavaScript</option>
+    </select>
+    <button type="submit">
+        Submit
+    </button>
+</form>
+
+⭐️여러개 선택하고 싶을 때는 select "multiple"⭐️
+
+<form action="" method="GET">
+    <label for="skill">다중 선택 스킬</label>
+    <select multiple name="skill" id="skill">
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="js">JavaScript</option>
+    </select>
+    <button type="submit">
+        Submit
+    </button>
+</form>
