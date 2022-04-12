@@ -1,0 +1,54 @@
+<h1>audio</h1>
+<h2>(1)</h2>
+<audio src="./assets/audios/kimbug.mp3" autoplay>
+</audio>
+- autoplay: 페이지 자동재생
+- control: 버튼식 재생
+
+<h2>(2)  사용자가 어떤 브라우저를 사용할 지 모르기 때문에 여러 소스를 놓음</h2>
+<audio>
+    <source src="./assets/audios/kimbug.wav"
+type="audio/wav"/>
+</audio>
+
+<audio>
+    <source src="./assets/audios/kimbug.mp3"
+type="audio/mpeg"/>
+</audio>
+
+<audio>
+    <source src="./assets/audios/kimbug.ogg"
+type="audio/ogg"/>
+</audio>
+
+<h1>Video</h1>
+<h2>(1)</h2>
+
+<video controls
+src="./assets/videos/kimbug.mov"></video>
+
+<h2>(2)</h2>
+<video autoplay loop>
+    <source 
+    src="./assets/videos/kimbug.mov" 
+type="video.mp4" />
+    <source 
+    src="./assets/videos/kimbug.mp4" 
+type="video.mp4" />
+    <p>
+        브라우저를 업데이트 하심이 어떠신지요?
+    </p>
+    <a href="https://browsehappy.com/">브라우저 업데이트하기</a>
+</video>
+- lpop: 자동재생
+
+<h1>iframe </h1>
+<iframe width="560" height="315" 
+src="https://www.youtube.com/embed/YZ_LovIXyxk" 
+title="YouTube video player" frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; 
+encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+
+
+
